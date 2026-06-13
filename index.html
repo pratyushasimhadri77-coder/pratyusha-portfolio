@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratyusha S | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>Pratyusha S</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+<button id="theme-toggle">🌙</button>
+</nav>
+
+<header>
+    <div class="hero">
+
+        <img src="images/profile.jpg" alt="Pratyusha" class="profile-pic">
+
+        <h1>Hello, I'm Pratyusha S</h1>
+
+        <h3>Computer Science Engineer | Full Stack Developer</h3>
+
+        <p>
+            Aspiring Software Developer with hands-on experience in Python,
+            Django, HTML, CSS, SQL, and Full Stack Development. Completed a
+            4-month internship at ISCT Infotech and developed multiple web
+            applications including Village Panchayat System, E-Commerce Website,
+            and Smart Library Management System.
+        </p>
+
+        <a href="resume.pdf" class="btn" download>Download Resume</a>
+
+    </div>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <p>
+        I am a Computer Science Engineering student graduating in 2026 from
+        AGMR College of Engineering and Technology. I completed a 4-month
+        Full Stack Development internship at ISCT Infotech, Dharwad, where I
+        worked with Python, Django, HTML, CSS, and SQL. I enjoy building
+        real-world web applications, solving problems, and learning new
+        technologies. My goal is to start my career as a Software Developer
+        and contribute to innovative software solutions.
+    </p>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+
+    <div class="project-card">
+        <h3>Bachelor of Engineering (Computer Science & Engineering)</h3>
+        <p>AGMR College of Engineering and Technology, Hubli</p>
+        <p>Graduation Year: 2026</p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+
+    <div class="skills">
+        <span>Python</span>
+        <span>Django</span>
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>SQL</span>
+        <span>MySQL</span>
+        <span>C Programming</span>
+        <span>Full Stack Development</span>
+        <span>Web Development</span>
+        <span>Database Management</span>
+    </div>
+</section>
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+        <h3>Village Panchayat System</h3>
+
+        <img src="images/panchayat.png" alt="Village Panchayat System">
+
+        <p>
+            Developed a citizen service portal using Python, Django, HTML,
+            CSS, and SQL. The system allows users to register complaints,
+            view notices, apply for government schemes, and request certificates
+            through a secure login system.
+        </p>
+
+        <p><strong>Technologies:</strong> Python, Django, HTML, CSS, SQL</p>
+        <a href="#" class="btn">View Project</a>
+    </div>
+
+    <div class="project-card">
+        <h3>E-Commerce Website</h3>
+
+        <img src="images/ecommerce.png" alt="E-Commerce Website">
+
+        <p>
+            Built an online shopping platform featuring product management,
+            customer registration, shopping cart functionality, and order
+            processing. Designed both frontend and backend modules.
+        </p>
+
+        <p><strong>Technologies:</strong> Python, Django, HTML, CSS, SQL</p>
+        <a href="#" class="btn">View Project</a>
+    </div>
+
+    <div class="project-card">
+        <h3>Smart Library Management System</h3>
+
+        <img src="images/library.png" alt="Smart Library Management System">
+
+        <p>
+            Developed a web-based library management application for book
+            inventory tracking, issue and return management, and student
+            record maintenance.
+        </p>
+
+        <p><strong>Technologies:</strong> Python, Django, HTML, CSS, SQL</p>
+        <a href="#" class="btn">View Project</a>
+    </div>
+</section>
+<section id="internship">
+    <h2>Internship Experience</h2>
+
+    <div class="project-card">
+        <h3>Full Stack Developer Intern - ISCT Infotech, Dharwad</h3>
+
+        <p>
+            Completed a 4-month internship in Full Stack Development.
+            Worked with Python, Django, HTML, CSS, and SQL to develop
+            web applications, design databases, and improve application
+            functionality and performance.
+        </p>
+    </div>
+</section>
+
+<section id="achievements">
+    <h2>Achievements & Certifications</h2>
+
+    <ul>
+        <li>3rd Prize - Kabaddi District Level Competition</li>
+        <li>3rd Prize - Mini Project Exhibition, AGMRCET</li>
+        <li>IEEE Student Member (2024)</li>
+        <li>Full Stack Development Internship Certificate</li>
+        <li>Generative AI & Full Stack Development Training</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <p><strong>Email:</strong> pratyusha.simhadri.77@gmail.com</p>
+    <p><strong>Phone:</strong> +91 9380874794</p>
+    <p><strong>Location:</strong> Manvi, Raichur, Karnataka</p>
+
+    <p><strong>GitHub:</strong> Add your GitHub link here</p>
+    <p><strong>LinkedIn:</strong> Add your LinkedIn link here</p>
+</section>
+
+<footer>
+    <p>© 2026 Pratyusha S | Portfolio</p>
+</footer>
+<script>
+const toggleBtn = document.getElementById("theme-toggle");
+
+toggleBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+
+    if(document.body.classList.contains("dark-mode")){
+        toggleBtn.textContent = "☀️";
+    } else {
+        toggleBtn.textContent = "🌙";
+    }
+});
+</script>
+
+</body>
+</html>
+```
